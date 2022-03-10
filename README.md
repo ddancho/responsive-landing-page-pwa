@@ -1,6 +1,6 @@
-# Responsive Landing Page
+# Responsive Landing Page PWA
 
-Showcase for responsive html page
+Continuation of the https://github.com/ddancho/responsive-landing-page as pwa with offline support
 
 ## Client side libraries
 
