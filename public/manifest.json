@@ -2,6 +2,7 @@
   "short_name": "Cakes",
   "name": "Sweet Treat",
   "description": "Landing page for the web shop",
+  "lang": "en-US",
   "icons": [
     {
       "src": "favicon.ico",
