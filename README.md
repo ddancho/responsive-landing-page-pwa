@@ -1,6 +1,8 @@
 # Responsive Landing Page PWA
 
-Continuation of the https://github.com/ddancho/responsive-landing-page as pwa with offline support
+Continuation of the https://github.com/ddancho/responsive-landing-page as pwa
+
+with offline support and possible installation on the mobile device
 
 ## Client side libraries
 
@@ -24,4 +26,7 @@ npm run start
 
 The app url : http://localhost:3000/
 
-Press f12 to start the dev tools and activate responsive design mode, try it on the various devices...
+Start Chrome, press f12 to start the dev tools and click on Lighthouse tab,
+check Progressive Web App (Categories)
+check Mobile (Device)
+and click on Generate Report, all marks sould be green (tested on Linux Mint and Chrome ver 99.0.4844.51)
