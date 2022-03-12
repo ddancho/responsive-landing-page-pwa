@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive landing page</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f5f5f5;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: url("./assets/wrapper_bg_960_720.png");
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+      }
+
+      @media (max-width: 920px) {
+        .container {
+          background-size: contain;
+        }
+      }
+
+      @media (max-width: 540px) {
+        .container {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          background-image: none;
+        }
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 500px;
+      }
+
+      @media (max-width: 540px) {
+        .card {
+          width: 350px;
+          height: 280px;
+          padding: 1rem;
+        }
+      }
+
+      h2 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-weight: 300;
+        padding: 1rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>Page you requested is not accessible offline</h2>
+        <h3>Please return to Home Page</h3>
+      </div>
+    </div>
+  </body>
+</html>
